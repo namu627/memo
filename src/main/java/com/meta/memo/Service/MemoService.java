@@ -27,6 +27,7 @@ public class MemoService {
         return memoResponseDto;
     }
 
+
     public List<MemoResponseDto> getMemos() {
         List<MemoResponseDto> responseDtoList = memoRepository.findAll();
         return responseDtoList;
