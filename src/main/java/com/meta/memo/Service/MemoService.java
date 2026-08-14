@@ -29,7 +29,7 @@ public class MemoService {
 
 
     public List<MemoResponseDto> getMemos() {
-        List<MemoResponseDto> responseDtoList = memoRepository.findAll();
+        List<MemoResponseDto> responseDtoList = memoRepository.findAll().
         return responseDtoList;
     }
 
